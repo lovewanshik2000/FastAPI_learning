@@ -1,0 +1,99 @@
+# Create a patient management app
+
+================== Create API ==================
+1) /create
+2) /view
+3) /view/{patient_id}
+4) /update/{patient_id}
+5) /delete/{patient_id}
+
+================= HTTP Methods ==================
+How many type of software based on user intrection?
+
+There are 2 type of software:- 
+1) Static software (It is used for getting information only or one way communication.) example: Calender, Clock
+2) Dynamic software (To have user intrection or two way communication) example: MS Excel, WhatsApp
+
+In Dynamic software how many type of intrection possible.
+There are only 4 type of intrection:-
+CRUD: Create, Read, Update, delete
+
+How many type of website are:
+Website is used the two way communication by server and client using HTTP protocals
+There are 2 type of website:
+1) Static (Blog, Govt.website)
+2) Dynamic (Facebook, Intagram)
+
+HTTP Methods:
+1. GET
+2. POST
+3. PUT/PATCH
+4. DELETE
+
+================== Path parameters in FastAPI =================
+Path parameters are dynamic segments of URL path to identify a specific resource.
+
+Example: /view/{patient_id}
+
+=================== Path() function =================
+The Path() function in FastAPI is used to provide metadata, validation, rules, and documentation hints for path parameters in your API.
+
+Like:
+1. Title
+2. Description
+3. Example
+4. ge, gt, le, lt
+5. Min_length
+6. Max_length
+7. regex
+
+================= HTTP Status Codes =====================
+HTTP status codes are 3-digit numbers returned by a web server (Like FastAPI) to indicate the result of a client's request (Like from a browser or API consumer)
+
+They help the client (browser, frontend, mobile app etc.) understand:
+1. whether the request was successful.
+2. whether the something went wrong.
+3. and what kind of issue occurred (if any)
+
+2xx: Success    (The request was successfully recieved and processed)
+3xx: Redirection    (Further action needs to be taken (e.g. redirect))
+4xx: Client Error   (Something is wrong with the request from the client)
+5xx: Server Error   (Something went wrong on the server side)
+
+===================== HTTPException() In FastAPI ====================
+HTTPException is a special built-in exception in FastAPI used to return custom HTTP error responses when something goes wrong in your API.
+
+Instead of returning a normal JSON or crashing the server. you can gracefully raise an error with:
+1. A proper HTTP status code (Like: 404, 403, etc)
+2. A custom error message
+3. (Optional) extra headers
+
+==================== Query parameters ======================
+Query parameters are optional key-value pairs appended to the end of a URL used to pass additional data to the server in an HTTP request. They are typically employed for operation like filtering, sorting, searching, and pagination without altering the endpoint path itself.
+
+Path: /view?city=Delhi&sort_by=age
+
+1. The ? marks the start of query parameters.
+2. Each parameter is a key-value pairs like: key=value
+3. Multiple parameters are separated by & (Ampercent).
+
+In this case:
+I) city=Delhi is a query parameter for filtering.
+II) sort_by=age is a query parameter for sorting.
+
+====================== Query() function in FastAPI ======================
+Query() is a utility  function provided by FastAPI to declar, validate and document query parameters in your API endpoint.
+
+It allows you to:
+1. Set default values.
+2. Enforce validation rules.
+3. Add metadata like Description, Title, Example.
+
+default                     Set default value (e.g. Query(0)).
+title                       Display in API docs.
+description                 Detailed explanation in Swagger.
+example/examples            Provide sample inputs.
+min_length, max_length      Validate string length.
+ge,gt,le,lt                 Validate numeric bounds.
+regex                       Pattern match for string.
+

@@ -1,0 +1,102 @@
+{
+  "P001": {
+    "name": "Kamlesh Lovewanshi",
+    "city": "Bhopal",
+    "age": 26,
+    "gender": "male",
+    "height": 5.8,
+    "weight": 61,
+    "bmi": 19.4,
+    "verdict": "Normal weight"
+  },
+  "P002": {
+    "name": "Rohit Sharma",
+    "city": "Indore",
+    "age": 32,
+    "gender": "male",
+    "height": 5.7,
+    "weight": 85,
+    "bmi": 29.3,
+    "verdict": "Overweight"
+  },
+  "P003": {
+    "name": "Anjali Verma",
+    "city": "Delhi",
+    "age": 24,
+    "gender": "female",
+    "height": 5.4,
+    "weight": 48,
+    "bmi": 18.3,
+    "verdict": "Underweight"
+  },
+  "P004": {
+    "name": "Suresh Patel",
+    "city": "Ahmedabad",
+    "age": 40,
+    "gender": "male",
+    "height": 5.6,
+    "weight": 92,
+    "bmi": 32.9,
+    "verdict": "Obese"
+  },
+  "P005": {
+    "name": "Priya Singh",
+    "city": "Lucknow",
+    "age": 29,
+    "gender": "female",
+    "height": 5.5,
+    "weight": 60,
+    "bmi": 22.0,
+    "verdict": "Normal weight"
+  },
+  "P006": {
+    "name": "Amit Kumar",
+    "city": "Patna",
+    "age": 35,
+    "gender": "male",
+    "height": 5.9,
+    "weight": 72,
+    "bmi": 23.1,
+    "verdict": "Normal weight"
+  },
+  "P007": {
+    "name": "Neha Gupta",
+    "city": "Jaipur",
+    "age": 27,
+    "gender": "female",
+    "height": 5.3,
+    "weight": 70,
+    "bmi": 27.3,
+    "verdict": "Overweight"
+  },
+  "P008": {
+    "name": "Rahul Mishra",
+    "city": "Kanpur",
+    "age": 31,
+    "gender": "male",
+    "height": 5.10,
+    "weight": 95,
+    "bmi": 30.2,
+    "verdict": "Obese"
+  },
+  "P009": {
+    "name": "Sneha Iyer",
+    "city": "Bangalore",
+    "age": 28,
+    "gender": "female",
+    "height": 5.6,
+    "weight": 54,
+    "bmi": 19.2,
+    "verdict": "Normal weight"
+  },
+  "P010": {
+    "name": "Vikas Yadav",
+    "city": "Noida",
+    "age": 33,
+    "gender": "male",
+    "height": 5.8,
+    "weight": 105,
+    "bmi": 34.5,
+    "verdict": "Obese"
+  }
+}
